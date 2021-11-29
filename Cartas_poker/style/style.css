@@ -1,0 +1,65 @@
+
+body{
+    background-image: url("../images/poker.jpg");
+}
+div{
+background-color: #EFEFEF;
+border: black 1px solid;
+height: 550px;
+width: 350px;
+padding: 30px 0 0 30px;
+position:absolute;
+font-size: 40px;
+left: 40%;
+top: 10%;
+transform: rotate(-40deg);
+border-radius: 20px;
+}
+.rojo1{
+color: red;
+left: 400px;
+top: 80px;
+z-index: 1;
+}
+.n1{
+transform: rotate(-30deg);
+left: 460px;
+top:75px;
+z-index: 2;
+}
+.rojo2{
+color: red;
+transform: rotate(-20deg);
+left: 520px;
+top: 80px;
+z-index: 3;
+}
+.n2{
+transform: rotate(-5deg);
+left: 605px;
+top: 110px;
+z-index: 4;
+}
+.rojo3{
+color: red;
+transform: rotate(10deg);
+left:680px;
+top: 160px;
+z-index: 5;
+}
+.mano{
+position: relative;
+transform: rotate(10deg);
+left:925px;
+top: 500px;
+z-index: 1000;
+}
+.corazon{
+position: relative;
+transform: rotate(13deg);
+left:460px;
+top: 250px;
+width: 200px;
+z-index: 6;
+}
+
